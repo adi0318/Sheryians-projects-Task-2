@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body,html{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(234, 232, 232);
+}
+
+.heade{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 20px;
+    height:14%;
+}
+
+#logo{
+    transform: translate(15%);
+    height: 100px;
+}
+
+.heading{
+    position: absolute;
+    font-size: 70px;
+    left:25%;
+    font-weight:80;
+    letter-spacing: -8%;
+    color: maroon;
+}
+
+.woman-bg{
+    background-image: url(./orange-bg.webp);
+    height: 50px;
+    width: 100px;
+    border-radius: 30px;
+    display: inline-block;
+}
+
+.shape{
+    text-align: right;
+    margin-right: 40px;
+    margin-top: 10px;
+    font-weight: 100;
+    color: rgb(190, 51, 1);
+}
+
+.woman{
+    position: absolute;
+    transform: translate(50%);
+    top: 46%;
+    height: 70px;
+}
+
+.container{
+    height: 82%;
+    width: 100%;
+    display: flex;
+}
+
+.left{
+    height: 100%;
+    width: 37%;
+    position: relative;
+}
+
+.left-content{
+    color: rgb(124, 36, 4);
+    margin-left: 20px;
+    font-size: 29px;
+    position: absolute;
+    margin-top: 60%;
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+.right{
+    height: 100%;
+    width: 63%;
+    
+}
+
+.upper-right{
+    font-size: 70px;
+    left:25%;
+    font-weight:80;
+    letter-spacing: -8%;
+    color: rgb(180, 163, 163);
+}
+
+.lower-right{
+    font-size: 70px;
+    left:25%;
+    font-weight:80;
+    letter-spacing: -8%;
+    color: maroon;
+}
+
+.para{
+    width: 30%;
+    color: maroon;
+}
+
+.photos{
+    display: flex;
+    justify-content: flex-start;
+    gap: 35px;
+}
+
+#photo1{
+    height: 350px;
+    width: 330px;
+    background-image: url(./harsh.jpg);
+    border-radius: 20px;
+}
+
+#photo2{
+    height: 350px;
+    width: 330px;
+    background-image: url(./sarthah.jpg);
+    border-radius: 20px;
+}
+
+#photo3{
+    height: 350px;
+    width: 330px;
+    background-image: url(./harsh.jpg);
+    border-radius: 20px;
+}
+
+.foot{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 80%;
+    text-align: center;
+    width: 1000px;
+}
+
+.p-foot{
+    position: absolute;
+    width: 500px;
+    left: 25%;
+    color: maroon;
+}
+
