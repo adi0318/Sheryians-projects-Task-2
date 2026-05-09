@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@font-face {
+    font-family: versus;
+    src: url(./FontsFree-Net-vr2.ttf);
+}
+body,html{
+    height: 100%;
+    width: 100%;
+    background-color: #0c141d;
+}
+
+header{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.collection h4{
+    color: #698fae;
+    font-weight: 100;
+    margin: 30px 30px 0 20px;
+}
+
+.collection span{
+    font-size: 60px;
+    font-weight: 600;
+    margin-left: 20px;
+}
+
+.details{
+    margin-top: 50px;
+    font-size: 10px;
+    line-height: 15px;
+    color: gray;
+}
+
+.types{
+    margin-top: 50px;
+    font-size: 10px;
+    line-height: 15px;
+    color: gray;
+}
+
+.filter{
+    height: 30px;
+    width: 100px;
+    margin: 50px;
+    background-color: #0c1620;
+    color: gray;
+    background-color: #0c1620;
+    border-color: rgb(216, 216, 216);
+    border-radius: 12px;
+    font-size: 10px;
+
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    padding: 14px 28px 14px 10px;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+main #hero{
+    background-image: url(./1.png);
+    height: 300px;
+    width: 400px;
+    background-size: cover;
+    margin: 20px;
+    border-radius: 10px;
+    background-position: right;
+}
+
+main .normal1{
+    background-image: url(./3.png);
+    height: 300px;
+    width: 250px;
+    background-size: cover;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+
+main .normal2{
+    background-image: url(./small1.png);
+    height: 300px;
+    width: 250px;
+    background-size: cover;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+main .normal3{
+    background-image: url(./small2.png);
+    height: 300px;
+    width: 250px;
+    background-size: cover;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+main .normal4{
+    background-image: url(./small\ 3.png);
+    height: 300px;
+    width: 250px;
+    background-size: cover;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+main .normal5{
+    background-image: url(./small2.png);
+    height: 300px;
+    width: 250px;
+    background-size: cover;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+main .normal6{
+    background-image: url(./small\ 3.png);
+    height: 300px;
+    width: 250px;
+    background-size: cover;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+main .normal7{
+    background-image: url(./small\ 4.png);
+    height: 300px;
+    width: 250px;
+    background-size: cover;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+main .normal8{
+    background-image: url(./3.png);
+    height: 300px;
+    width: 250px;
+    background-size: cover;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.second-last{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+    border: 2px solid gray;
+    padding: 13px;
+    border-radius: 20px;
+}
+
+.insulation{
+    display: flex;
+    align-items: first baseline;
+    justify-content: space-between;
+    gap:10px;
+    color: rgb(189, 188, 188);
+    position: relative;
+}
+
+.insulation i{
+    position: absolute;
+    transform: translateX(-110%);
+    font-size: 40px;
+    font-weight: 100;
+}
+
+.insulation span{
+    font-size: 15px;
+}
+
+.insulation p{
+    font-weight: 20;
+    font-size: 12px;
+}
+
+.outer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(189, 188, 188);
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 20px;
+    border: 2px solid gray;
+    margin: 20px;
+}
+
+.first-foot{
+    font-size: 12px;
+    display: flex;
+    gap: 20px;
+}
+
+.first-foot p{
+    margin-top: 15px;
+    line-height: 17px;
+}
+
+.first-foot i{
+    margin-top: 5px;
+    font-size: 50px;
+}
+
+.second-foot{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 30px;
+    font-size: 15px;
+}
+
+.third-foot{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 13px;
+}
+
+.third-foot div{
+    font-size: 15px;
+}
